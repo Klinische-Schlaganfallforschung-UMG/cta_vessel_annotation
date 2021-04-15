@@ -1,0 +1,89 @@
+# Data folders #
+######################
+original_data/
+original_data2/
+models/
+results/
+test/
+train/
+val/
+model_data/
+model_data2/
+graphs/
+data/
+annotation_data/
+work/
+
+# File types #
+###################
+*.npy
+*.h5py
+*.nii
+*.pkl
+*.dcm
+*.h5
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.py[cod]
+*$py.class
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.tar.gz
+*.ear
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon
+.tmtags
+/.idea
+.idea/
+/*.iml
+tags
+vendor.tags
+tmtagsHistory
+.bundle
+/build/
+/dist/
+.ipynb_checkpoints/
+__pycache__/
+_build_html
+docs/_build
+node_modules
+*.idea
+.ipynb_checkpoints
+*.bak
+*.temp
+*.mlab.auto 
