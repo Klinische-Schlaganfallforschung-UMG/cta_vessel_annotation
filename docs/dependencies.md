@@ -1,5 +1,3 @@
-# How to use
-
 ## Dependencies
 - Keras 2.3.1
 - Matplotlib 3.1.3 
