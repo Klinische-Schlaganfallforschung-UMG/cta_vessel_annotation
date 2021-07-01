@@ -49,10 +49,7 @@ Evaluation was done in a 4-fold cross-validation framework. 75% of all data was 
 
 
 ## Results
-
-Results from a 4-fold cross-validation framework are shown below. We analyzed the contribution of context-aggregation and deep supervision separately (model *Context-Unet* and *DS-Unet*) as well as together (model *BRAVE-NET*). To give a broader view on the performance of our models, we report five different metrics: Precision, Recall, DSC, 95 percentile Hausdorff Distance (95HD) and Average Hausdorff Distance (AVD). We included Precision and Recall to compare models by the quality and completeness of segmentations respectively and DSC, 95HD and AVD to assess spatial overlapping between predictions and ground truth. The evaluation metrics were calculated on whole brain segmentations (reconstructed from patch-wise predictions) to reflect the use-case, by using the open source evaluation tool from (Taha and Hanbury 2015). We report averaged values and standard deviation across test sets defined by the cross-validation framework.
-
-A summary below shows the superiority of the proposed methods. We can see that Context-aggregation improves mainly on DSC but deep supervision can even further push our distance-based measures.
+Results of our proposed models are shown in the Table below. Values reported reflect the performance of our best model in terms of mean mF1 and bAcc on aggregated and detailed artery segments. More detailed evalutation can be found in our paper.
 
 |                               | Aggregated segments | Detailed segments |
 |:-----------------------------:|:-------------------:|:-----------------:|
