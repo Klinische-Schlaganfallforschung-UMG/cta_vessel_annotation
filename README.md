@@ -55,9 +55,8 @@ Results from a 4-fold cross-validation framework are shown below. We analyzed th
 A summary below shows the superiority of the proposed methods. We can see that Context-aggregation improves mainly on DSC but deep supervision can even further push our distance-based measures.
 
 |                               | Aggregated segments | Detailed segments |
-|                               |:-------------------:|:-----------------:|
-|                               |    mF1    |   bAcc  |   mF1   |   bAcc  |
-|:-----------------------------:|:---------:|:-------:|:-------:|:-------:|:
+|:-----------------------------:|:-------------------:|:-----------------:|
+|         **Models**            |    mF1    |   bAcc  |   mF1   |   bAcc  |
 | DL-augmented (voxel-wise)     |    0.89   |   0.90  |   0.80  |   0.83  |
 | DL-augmented (segment-wise)   |    0.85   |   0.88  |   0.78  |   0.82  |
 
